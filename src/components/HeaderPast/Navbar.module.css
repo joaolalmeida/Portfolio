@@ -1,0 +1,31 @@
+.Navbar ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+.Navbar li {
+  list-style-type: none; /* Tirar bolinha da lista */
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: var(--white);
+  padding-bottom: 0.375rem;
+
+  position: relative;
+}
+
+.Navbar a::after { /* para fazer o efeito de linha carregando */
+  content: " ";
+  width: 0%;
+  height: 3px; /*Tamanho da linha*/
+  background-color: var(--green-100);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out; /* iniciar suave e terminar suave */
+}
+
+.Navbar a:hover::after {
+  width: 100%;
+}

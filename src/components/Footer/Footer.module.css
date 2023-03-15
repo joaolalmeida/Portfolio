@@ -1,0 +1,16 @@
+.footer {
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: var(--gray--100);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--gray--100);
+}
+
+.footer a:hover {
+  color: var(--green-100);
+}
