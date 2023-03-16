@@ -1,9 +1,11 @@
 .footer {
-  height: 13vh;
+  height: 17.2vh;
   display: flex;
   justify-content: center;
   align-items: end;
+
   color: var(--gray--100);
+  font-size: 0.8rem;
 }
 
 .footer a {

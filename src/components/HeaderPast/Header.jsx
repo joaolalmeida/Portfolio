@@ -13,7 +13,7 @@ export function HeaderComplete() {
     <header className={styles.header}>
       <Title size="1.188rem" />
       <Navbar />
-      <div className={styles.teste}>
+      <div className={styles.icons}>
         <IconsGitHub />
         <IconsLinkedin />
         <IconsSun />
@@ -25,11 +25,23 @@ export function HeaderComplete() {
 export function HeaderInicio() {
   return (
     <header className={styles.header}>
-      <div></div>
+      <Title size="1.2rem" color="rgba(0, 136, 255, 0)" />
       <Navbar />
-      <div className={styles.teste}>
+      <div className={styles.icons}>
         <IconsGitHub />
         <IconsLinkedin />
+        <IconsSun />
+      </div>
+    </header>
+  )
+}
+
+export function HeaderSobre() {
+  return (
+    <header className={styles.header}>
+      <Title size="1.2rem" weight="500" />
+      <Navbar />
+      <div className={styles.icons}>
         <IconsSun />
       </div>
     </header>
