@@ -25,7 +25,7 @@ export function HeaderComplete() {
 export function HeaderInicio() {
   return (
     <header className={styles.header}>
-      <Title size="1.2rem" color="rgba(0, 136, 255, 0)" />
+      <Title size="1.2rem" weight="500" color="rgba(0, 136, 255, 0)" />
       <Navbar />
       <div className={styles.icons}>
         <IconsGitHub />

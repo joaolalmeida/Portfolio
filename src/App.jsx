@@ -1,17 +1,22 @@
 // import { Contato } from './pages/contato/Contato';
 // import { Title } from "./components/Title"
-import { Inicio } from './pages/inicio/Inicio'
-import { Sobre } from './pages/sobre/Sobre'
 
 import styles from './styles/App.module.css';
 import './styles/global.css';
 
-function App() {
+import { BrowserRouter as Router} from 'react-router-dom'
+import { Rotas } from './routes/Routes';
+// import { Routes } from './routes/Routes'
 
+
+
+function App() {
   return (
-    <div className={styles.wrapper}>
-      <Sobre />
-    </div>
+    <Router>
+      <div className={styles.wrapper}>
+      <Rotas />
+      </div>
+    </Router>
   )
 }
 

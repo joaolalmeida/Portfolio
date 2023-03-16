@@ -6,25 +6,27 @@ import styles from "./Inicio.module.css"
 
 import linha from "./../../assets/linha.svg"
 
+
+
 export function Inicio() {
   return (
-    <div className={styles.teste}>
-      <HeaderInicio />
-      <div className={styles.body}>
-        <div className={styles.title}>
-          <Title size="4rem" weight="500" />
-          <h2>
-            Dev FrontEnde <span>(Jr)</span>
-          </h2>
+      <div className={styles.teste}>
+        <HeaderInicio />
+        <div className={styles.body}>
+          <div className={styles.title}>
+            <Title size="4rem" weight="500" />
+            <h2>
+              Dev FrontEnde <span>(Jr)</span>
+            </h2>
+          </div>
+          <div className={styles.linha}>
+            <img src={linha} alt="" />
+          </div>
+          <div className={styles}>
+            <Profile />
+          </div>
         </div>
-        <div className={styles.linha}>
-          <img src={linha} alt="" />
-        </div>
-        <div className={styles}>
-          <Profile />
-        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
   )
 }
