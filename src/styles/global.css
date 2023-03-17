@@ -25,3 +25,13 @@ body, input, textarea, button { /*Elementos que não herdam a fonte do body*/
   font-weight: 400;
   font-size: 1rem;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(111, 103, 88);        /* color of the tracking area */
+}
+
+

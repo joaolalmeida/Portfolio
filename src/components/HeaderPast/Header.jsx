@@ -8,6 +8,7 @@ import { IconsLinkedin } from "../reused/Icons"
 
 import { Navbar } from "./Navbar"
 
+
 export function HeaderComplete() {
   return (
     <header className={styles.header}>
@@ -35,6 +36,7 @@ export function HeaderInicio() {
     </header>
   )
 }
+
 
 export function HeaderSobre() {
   return (

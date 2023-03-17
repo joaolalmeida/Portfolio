@@ -7,13 +7,13 @@ export function Navbar() {
     <div className={styles.Navbar}>
       <ul>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link to="/">INICIO</Link>
         </li>
         <li>
-          <Link to="/sobre">Sobre</Link>
+          <Link to="/sobre">SOBRE</Link>
         </li>
         <li>
-          <a href="#">SKILLS</a>
+          <Link to="/skills">SKILLS</Link>
         </li>
         <li>
           <a href="#">PROJETOS</a>

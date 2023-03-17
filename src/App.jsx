@@ -6,16 +6,15 @@ import './styles/global.css';
 
 import { BrowserRouter as Router} from 'react-router-dom'
 import { Rotas } from './routes/Routes';
-// import { Routes } from './routes/Routes'
 
 
 
 function App() {
   return (
     <Router>
-      <div className={styles.wrapper}>
-      <Rotas />
-      </div>
+        <div className={styles.wrapper}>
+          <Rotas />
+        </div>
     </Router>
   )
 }

@@ -1,4 +1,11 @@
 .icons {
   margin-left: 0.5rem;
+}
 
+.teste a {
+  color: white;
+}
+
+.teste a:hover {
+  color: var(--green-100);
 }
