@@ -12,7 +12,9 @@ import { motion } from "framer-motion"
         color: props.color,
       }}
     >
-      <motion.div layoutId="title" transition={{ duration: 1 }}>
+      <motion.div
+       layoutId="title"
+       transition={{ duration: 1 }} >
         João <span>Almeida</span>
       </motion.div>
     </div>

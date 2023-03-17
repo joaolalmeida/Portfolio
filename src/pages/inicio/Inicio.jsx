@@ -6,6 +6,7 @@ import styles from "./Inicio.module.css"
 
 import linha from "./../../assets/linha.svg"
 
+import { motion } from 'framer-motion'
 
 export function Inicio() {
   return (
@@ -14,9 +15,15 @@ export function Inicio() {
       <div className={styles.body}>
         <div className={styles.title}>
           <Title size="4rem" weight="500" />
-          <h2>
-            Dev FrontEnd <span>(Jr)</span>
-          </h2>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1 }}
+          >
+            <h2>
+              Dev FrontEnd <span>(Jr)</span>
+            </h2>
+          </motion.div>
         </div>
         <div className={styles.linha}>
           <img src={linha} alt="" />
@@ -29,3 +36,5 @@ export function Inicio() {
     </div>
   )
 }
+
+       

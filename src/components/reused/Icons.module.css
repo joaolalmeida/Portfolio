@@ -1,11 +1,15 @@
 .icons {
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
-.teste a {
+.icons a {
   color: white;
 }
 
-.teste a:hover {
+.icons a:hover {
   color: var(--green-100);
+}
+
+.iconSun a {
+  color: #F4CC07;
 }

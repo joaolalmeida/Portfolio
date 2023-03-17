@@ -1,0 +1,15 @@
+.Hardskills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills h2{
+  font-weight: 400;
+  font-family: monospace;
+}
+
+.skillsIcons img {
+  padding: 0.625rem;
+  margin-bottom: 3rem;
+}
