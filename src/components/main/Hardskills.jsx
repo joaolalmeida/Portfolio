@@ -10,22 +10,17 @@ import styles from './Hardskills.module.css'
 export function Hardskills() {
 
  const containerteste = {
-  hidden : { y: 0, opacity: 0},
    visible: {
      transition: {
        delayChildren: 0.5,
-       staggerChildren: 0.2,
+       staggerChildren: 1.2,
      },
    },
  }
 
  const item = {
-   hidden: { y: 80, opacity: 0 },
+   hidden: { y: 20, opacity: 0 },
    visible: {
-     transition: {
-       delayChildren: 0.5,
-       staggerChildren: 0.2,
-     },
      y: 0,
      opacity: 1,
    },
@@ -33,15 +28,16 @@ export function Hardskills() {
 
 
   return (
-    <motion.div initial="hidden" animate="visible" variants={item}>
+    <motion.div initial="hidden" animate="visible" variants={containerteste}>
       <h2>Hard Skills</h2>
 
       <motion.div >
-        <motion.img src={reactjs}></motion.img>
-        <img src={javascript} />
-        <img src={typescript} />
-        <img src={html} />
-        <img src={css} />
+        <motion.img variants={item} src={reactjs}></motion.img>
+        <motion.img variants={item} src={reactjs}></motion.img>
+        <motion.img variants={item} src={reactjs}></motion.img>
+        <motion.img variants={item} src={reactjs}></motion.img>
+        <motion.img variants={item} src={reactjs}></motion.img>
+
       </motion.div>
     </motion.div>
   )
