@@ -1,6 +1,7 @@
 import { HeaderSobre } from './../../components/HeaderPast/Header'
 import { Profile } from './../../components/reused/Profile'
 import { Footer } from '../../components/Footer/Footer'
+import { Button } from './../../components/reused/Button'
 
 import { IconsGitHub } from './../../components/reused/Icons'
 import { IconsLinkedin } from './../../components/reused/Icons'
@@ -35,16 +36,14 @@ export function Sobre() {
             </p>
             <p>
               Atualmente Estudo para me tornar um desenvolvedor FrontEnd,
-              utilizando principalmente as tecnologias HTML, CSS,
-              Sass, JS e React.
+              utilizando principalmente as tecnologias HTML, CSS, Sass, JS e
+              React.
             </p>
             <p>
               Disponibilizo no botão abaixo o meu currículo completo, onde pode
               encontrar minhas experiências e formações profissionais.
             </p>
-            <a href="#">
-              <button>Curriculo completo</button>
-            </a>
+            <Button />
           </motion.div>
         </div>
       </div>
