@@ -1,6 +1,4 @@
 
-import sol from "../../assets/sol.svg"
-
 import styles from "./Icons.module.css"
 
 import React, { useState } from "react"

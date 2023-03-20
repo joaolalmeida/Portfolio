@@ -16,7 +16,7 @@ export function Navbar() {
           <Link to="/skills">SKILLS</Link>
         </li>
         <li>
-          <a href="#">PROJETOS</a>
+          <a href="/projetos">PROJETOS</a>
         </li>
         <li>
           <a href="#">CONTATO</a>

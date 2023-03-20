@@ -1,7 +1,7 @@
 import { HeaderSobre } from './../../components/HeaderPast/Header'
 import { Profile } from './../../components/reused/Profile'
 import { Footer } from '../../components/Footer/Footer'
-import { Button } from './../../components/reused/Button'
+import { Curriculo } from './../../components/reused/Button'
 
 import { IconsGitHub } from './../../components/reused/Icons'
 import { IconsLinkedin } from './../../components/reused/Icons'
@@ -43,7 +43,7 @@ export function Sobre() {
               Disponibilizo no botão abaixo o meu currículo completo, onde pode
               encontrar minhas experiências e formações profissionais.
             </p>
-            <Button />
+            <Curriculo />
           </motion.div>
         </div>
       </div>

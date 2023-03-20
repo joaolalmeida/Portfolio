@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 import styles from './Hardskills.module.css'
 
 export function Hardskills() {
-  const containerteste = {
+  const container = {
     visible: {
       transition: {
         delayChildren: 0.5,
@@ -31,7 +31,7 @@ export function Hardskills() {
       className={styles.hardskills}
       initial="hidden"
       animate="visible"
-      variants={containerteste}
+      variants={container}
     >
       <h2>Hard Skills</h2>
 
