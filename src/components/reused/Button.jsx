@@ -11,7 +11,7 @@ export function Curriculo() {
   }
 
   return (
-    <div>
+    <div className={styles.button}>
       <button onClick={baixarPdf}>Curriculo completo</button>
     </div>
   )
@@ -20,7 +20,7 @@ export function Curriculo() {
 
 export function Pagina() {
   return (
-    <div>
+    <div className={styles.button}>
       <a href="https://github.com/joaolalmeida" target="_blank">
         <button>Página</button>
       </a>
@@ -31,7 +31,7 @@ export function Pagina() {
 
 export function Github() {
   return (
-    <div>
+    <div className={styles.button}>
       <a href="https://github.com/joaolalmeida" target="_blank">
         <button>GitHub</button>
       </a>

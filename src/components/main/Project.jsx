@@ -38,7 +38,7 @@ export function Project() {
       >
         <h2>Landing Page Responsive</h2>
       </motion.div>
-      <motion.div variants={item}>
+      <motion.div variants={item} className={styles.img}>
         <img src={landingPage} alt="ola" />
         <motion.div
           className={styles.technologies}

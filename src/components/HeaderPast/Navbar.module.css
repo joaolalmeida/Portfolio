@@ -1,17 +1,18 @@
-.Navbar {
-
-}
-
-.Navbar ul {
+.navbarItems {
   display: flex;
-  gap: 1.9rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.Navbar li {
-  list-style-type: none; /* Tirar bolinha da lista */
+.navbarItems li {
+
+  display: flex;
+  margin: 1rem;
+
 }
 
-.Navbar a {
+.navbarItems a {
   text-decoration: none;
   color: var(--white);
   font-weight: 300;
@@ -20,7 +21,7 @@
   position: relative;
 }
 
-.Navbar a::after { /* para fazer o efeito de linha carregando */
+.navbarItems a::after { /* para fazer o efeito de linha carregando */
   content: " ";
   width: 0%;
   height: 3px; /*Tamanho da linha*/
@@ -31,6 +32,61 @@
   transition: 0.5s ease-in-out; /* iniciar suave e terminar suave */
 }
 
-.Navbar a:hover::after {
+.navbarItems a:hover::after {
   width: 100%;
+}
+
+
+ .menuButton {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  border: none;
+  background-color: var(--black-100);
+}
+
+.navbarItems--mobile {
+  position:fixed;
+  width: 15rem;
+  background-color: #1b1b1cf4;
+}
+
+.navbarItems--mobile li {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+} 
+
+
+@media only screen and (max-width: 768px) {
+  .navbarItems {
+    display: none;
+  }
+
+  .navbarItems--show {
+    display: block;
+  }
+
+  .menuButton {
+    display: block;
+  }
+}
+
+
+@media only screen and (min-width: 769px) {
+  .navbarItems--mobile {
+    display: none;
+  }
+
+  .menuButton {
+    display: none;
+
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .menuButton {
+    display: none;
+  }
 }

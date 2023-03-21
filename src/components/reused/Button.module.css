@@ -1,4 +1,4 @@
-button {
+.button button {
   margin-top: 2rem;
 
   background: transparent;
@@ -12,7 +12,7 @@ button {
   transition: transform 0.2s ease-in-out;
 }
 
-button:hover {
+.button button:hover {
   transform: scale(1.05);
 
   color: var(--white);

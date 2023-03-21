@@ -12,7 +12,9 @@ import { Navbar } from "./Navbar"
 export function HeaderComplete() {
   return (
     <header className={styles.header}>
-      <Title size="1.188rem" />
+      <div className={styles.teste}>
+        <Title size="1.188rem" />
+      </div>
       <Navbar />
       <div className={styles.icons}>
         <IconsLinkedin />
@@ -26,7 +28,9 @@ export function HeaderComplete() {
 export function HeaderInicio() {
   return (
     <header className={styles.header}>
-      <Title size="1.2rem" weight="500" color="rgba(0, 136, 255, 0)" />
+      <div className={styles.teste}>
+        <Title size="1.2rem" weight="500" color="rgba(0, 136, 255, 0)" />
+      </div>
       <Navbar />
       <div className={styles.icons}>
         <IconsLinkedin />
@@ -41,7 +45,9 @@ export function HeaderInicio() {
 export function HeaderSobre() {
   return (
     <header className={styles.header}>
-      <Title size="1.2rem" weight="500" />
+      <div className={styles.teste}>
+        <Title size="1.2rem" weight="500" />
+      </div>
       <Navbar />
       <div className={styles.icons}>
         <IconSun />
