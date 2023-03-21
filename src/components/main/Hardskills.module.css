@@ -1,22 +1,22 @@
 .hardskills {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 6rem;
+}
+
+.containerItens {
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.hardskills > h2{
-  font-size: 1.5rem;
-  font-weight: 300;
-  font-family: monospace;
+
+.itens {
+  margin: 1rem;
 }
 
-.hardskills ul {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  gap: 2rem;
-}
+
 
 .hardskills li {
   display: flex;
@@ -24,19 +24,31 @@
   align-items: center;
   justify-content: flex-end;
 
-  list-style-type: none;
-  border: 1px solid var(--green-100);
-  border-radius: 12px;
   width: 150px;
   height: 150px;
+  border: 1px solid var(--green-100);
+  border-radius: 12px;
 
   transition: transform 0.3s ease-in-out;
-
 }
 
-.hardskills li:hover {
+ .hardskills li:hover {
     transform: scale(1.1);
 }
+
+
+.hardskills > h2{
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: monospace;
+}
+
+.skillsExtras {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 .hardskills svg {
   font-size: 3rem;
@@ -46,6 +58,17 @@
   font-size: 1rem;
   margin: 1.5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .skillsExtras {
   display: flex;

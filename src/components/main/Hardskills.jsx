@@ -35,32 +35,32 @@ export function Hardskills() {
     >
       <h2>Hard Skills</h2>
 
-      <ul>
-        <motion.div variants={item}>
+      <ul className={styles.containerItens}>
+        <motion.div variants={item} className={styles.itens}>
           <li>
             <FaReact />
             <h3>React JS</h3>
           </li>
         </motion.div>
-        <motion.div variants={item}>
+        <motion.div variants={item} className={styles.itens}>
           <li>
             <SiJavascript />
             <h3>JavaScript</h3>
           </li>
         </motion.div>
-        <motion.div variants={item}>
+        <motion.div variants={item} className={styles.itens}>
           <li>
             <SiTypescript />
             <h3>TypeScript</h3>
           </li>
         </motion.div>
-        <motion.div variants={item}>
+        <motion.div variants={item} className={styles.itens}>
           <li>
             <FaHtml5 />
             <h3>HTML</h3>
           </li>
         </motion.div>
-        <motion.div variants={item}>
+        <motion.div variants={item} className={styles.itens}>
           <li>
             <FaCss3Alt />
             <h3>CSS</h3>
