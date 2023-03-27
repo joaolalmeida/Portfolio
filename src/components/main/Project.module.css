@@ -4,10 +4,23 @@
   align-items: center;
 }
 
+.project h2 {
+  margin: 2rem;
+  font-family: monospace;
+  font-weight: 300;
+}
+
+
+.project .img img{
+  width: 100%;
+  height: auto;
+}
+
 .technologies {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-top: 3rem;
 }
 
 .technologies span {
@@ -20,13 +33,14 @@
   gap: 1rem;
 }
 
-.linha {
+.project .linhaHorizontal {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.img img {
-  max-width: 100%;
+.linhaHorizontal img {
+  width: 100%;
   height: auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }

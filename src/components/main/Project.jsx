@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion'
-import  landingPage  from "./../../assets/landingpage.png"
+// import  landingPage  from "./../../assets/landingpage.png"
 import { Pagina } from '../reused/Button'
 import { Github } from '../reused/Button'
-import linhaHorizontal from './../../assets/linha-horizontal.svg'
+import linhaHorizontal from './../../assets/linha-horizontal.png'
 
 import styles from './Project.module.css'
 
-export function Project() {
+export function Project(props) {
    const container = {
      visible: {
        transition: {
@@ -31,15 +31,15 @@ export function Project() {
       variants={container}
     >
       <motion.div
-      className={styles.imgProject}
+        className={styles.imgProject}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h2>Landing Page Responsive</h2>
+        <h2>{props.texto}</h2>
       </motion.div>
       <motion.div variants={item} className={styles.img}>
-        <img src={landingPage} alt="ola" />
+        <img src={props.imageSrc} alt="Imagem" />
         <motion.div
           className={styles.technologies}
           initial={{ opacity: 0 }}
@@ -64,15 +64,16 @@ export function Project() {
         >
           <Pagina />
           <Github />
-
         </motion.div>
-        <motion.img
-           className={styles.linha}
-          src={linhaHorizontal}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.1 }}
-        />
+      </motion.div>
+      <motion.div
+        className={styles.linhaHorizontal}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.1 }}
+      >
+        <img
+          src={props.imageLinha}/>
       </motion.div>
     </motion.div>
   )
