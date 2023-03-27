@@ -23,6 +23,9 @@ export function Project(props) {
        opacity: 1,
      },
    }
+
+   const { textos } = props
+
   return (
     <motion.div
       className={styles.project}
@@ -46,15 +49,12 @@ export function Project(props) {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <p>
-            <span>✓</span> HTML
-          </p>
-          <p>
-            <span>✓</span> CSS
-          </p>
-          <p>
-            <span>✓</span> JavaScript
-          </p>
+          {textos &&
+            textos.map((texto, index) => (
+              <span key={index}>
+                ✔<p>{texto}</p>
+              </span>
+            ))}
         </motion.div>
         <motion.div
           className={styles.links}
@@ -72,8 +72,7 @@ export function Project(props) {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.1 }}
       >
-        <img
-          src={props.imageLinha}/>
+        <img src={props.imageLinha} />
       </motion.div>
     </motion.div>
   )

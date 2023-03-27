@@ -23,9 +23,15 @@
   margin-top: 3rem;
 }
 
-.technologies span {
+ .technologies span {
   color: var(--green-100);
+  display: flex;
+  gap: 0.55rem;
+  line-height: 20px;
 }
+.technologies span p{
+  color: var(--white);
+}  
 
 .links {
   display: flex;
