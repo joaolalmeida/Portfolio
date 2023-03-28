@@ -11,7 +11,6 @@ import { motion } from 'framer-motion'
 export function Inicio() {
   return (
     <div className={styles.teste}>
-      Testando
       <HeaderInicio />
       <div className={styles.body}>
         <div className={styles.title}>
