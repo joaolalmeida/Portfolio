@@ -60,14 +60,21 @@
 }
 
 
-
-
-
-
-
-
-
-
+li:hover .react { /*Ao passar o mouse em cima do li mudar a cor do svg */
+  color: #61DBFB;
+}
+li:hover .javaScript { 
+  color: #F7DF1E;
+}
+li:hover .typeScript { 
+  color: #007ACC;
+}
+li:hover .html { 
+  color: #F25320;
+}
+li:hover .css { 
+  color: #379AD6;
+}
 
 
 .skillsExtras {

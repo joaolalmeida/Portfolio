@@ -7,15 +7,12 @@
 }
 
 .body h2 {
-  font-size: 1.8rem;
   color: var(--green-100);
   font-weight: 300;
   text-align: end;
 }
 
-.body h2 span {
-  color: #B5B900;
-}
+
 
 .linha {
   margin-bottom: 2rem;

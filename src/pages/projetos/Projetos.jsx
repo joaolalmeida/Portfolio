@@ -20,12 +20,12 @@ const rocketPlayTexto = [
 export function Projetos() {
   return (
     <div>
-      
       <HeaderComplete />
 
       <Project
         texto="Landing Page Responsive"
         texto1="teste"
+        link={"https://responsive-landing-page-joaolalmeida.netlify.app/"}
         imageSrc={landingPage}
         imageLinha={linhaHorizontal}
         textos={landingPageTexto}
@@ -33,6 +33,7 @@ export function Projetos() {
 
       <Project
         texto="Rocket Play"
+        link={"https://rocketpay.netlify.app/"}
         imageSrc={rocketPlay}
         textos={rocketPlayTexto}
       />
@@ -40,7 +41,6 @@ export function Projetos() {
       <div className={styles.footerProjetos}>
         <Footer />
       </div>
-
     </div>
   )
 }

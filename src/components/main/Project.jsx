@@ -42,7 +42,9 @@ export function Project(props) {
         <h2>{props.texto}</h2>
       </motion.div>
       <motion.div variants={item} className={styles.img}>
-        <img src={props.imageSrc} alt="Imagem" />
+        <a href={props.link} target="_blank">
+          <img src={props.imageSrc} alt="Imagem" />
+        </a>
         <motion.div
           className={styles.technologies}
           initial={{ opacity: 0 }}

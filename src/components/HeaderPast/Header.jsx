@@ -13,7 +13,7 @@ export function HeaderComplete() {
   return (
     <header className={styles.header}>
       <div className={styles.teste}>
-        <Title size="1.188rem" />
+        <Title size="1.2rem" weight="500"/>
       </div>
       <Navbar />
       <div className={styles.icons}>
@@ -42,11 +42,11 @@ export function HeaderInicio() {
 }
 
 
-export function HeaderSobre() {
+export function HeaderSobre(props) {
   return (
     <header className={styles.header}>
       <div className={styles.teste}>
-        <Title size="1.2rem" weight="500" />
+        <Title size="1.2rem" weight="500" color={props.color}/>
       </div>
       <Navbar />
       <div className={styles.icons}>

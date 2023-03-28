@@ -36,7 +36,7 @@ export function Sobre() {
             </p>
             <p>
               Atualmente Estudo para me tornar um desenvolvedor FrontEnd,
-              utilizando principalmente as tecnologias HTML, CSS, Sass, JS e
+              utilizando principalmente as tecnologias HTML, CSS, JS, TS e
               React.
             </p>
             <p>

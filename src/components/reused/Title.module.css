@@ -1,4 +1,8 @@
-.title {
-  display: flex;
-  flex-direction: column;
+.subTitle {
+  color: var(--green-100);
+  font-weight: 300;
+}
+
+.subTitle span {
+  color: rgb(255, 204, 3);;
 }

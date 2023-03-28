@@ -38,31 +38,31 @@ export function Hardskills() {
       <ul className={styles.containerItens}>
         <motion.div variants={item} className={styles.itens}>
           <li>
-            <FaReact />
+            <FaReact className={styles.react} />
             <h3>React JS</h3>
           </li>
         </motion.div>
         <motion.div variants={item} className={styles.itens}>
           <li>
-            <SiJavascript />
+            <SiJavascript className={styles.javaScript} />
             <h3>JavaScript</h3>
           </li>
         </motion.div>
         <motion.div variants={item} className={styles.itens}>
           <li>
-            <SiTypescript />
+            <SiTypescript className={styles.typeScript} />
             <h3>TypeScript</h3>
           </li>
         </motion.div>
         <motion.div variants={item} className={styles.itens}>
           <li>
-            <FaHtml5 />
+            <FaHtml5 className={styles.html} />
             <h3>HTML</h3>
           </li>
         </motion.div>
         <motion.div variants={item} className={styles.itens}>
           <li>
-            <FaCss3Alt />
+            <FaCss3Alt className={styles.css} />
             <h3>CSS</h3>
           </li>
         </motion.div>

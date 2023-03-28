@@ -1,5 +1,5 @@
 import { HeaderInicio } from "../../components/HeaderPast/Header"
-import { Title } from "../../components/reused/Title"
+import { Title, Subtitle } from "./../../components/reused/Title"
 import { Footer } from "../../components/Footer/Footer"
 import { Profile } from "./../../components/reused/Profile"
 import styles from "./Inicio.module.css"
@@ -20,9 +20,7 @@ export function Inicio() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            <h2>
-              Dev FrontEnd <span>(Jr)</span>
-            </h2>
+            <Subtitle size="1.8rem" />
           </motion.div>
         </div>
         <div className={styles.linha}>

@@ -51,7 +51,7 @@ export function Navbar() {
           <Link to="/projetos">PROJETOS</Link>
         </li>
         <li>
-          <Link to="#">CONTATO</Link>
+          <Link to="/contato">CONTATO</Link>
         </li>
       </ul>
     </nav>

@@ -3,13 +3,18 @@
 }
 
 .icons a {
-  color: white;
+  color: var(--white);
 }
 
 .icons a:hover {
   color: var(--green-100);
 }
 
-.iconSun a {
-  color: #F4CC07;
+.iconSun  {
+  color: rgb(244, 204, 7);
+  cursor: pointer; 
+}
+
+.moon {
+  color: rgb(0, 0, 0);
 }
