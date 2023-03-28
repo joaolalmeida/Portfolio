@@ -43,8 +43,10 @@ export function Projetos() {
       />
 
       <div className={styles.footerProjetos}>
-        <Footer />
       </div>
+        <div className={styles.footerProjetos}>
+          <Footer />
+        </div>
     </div>
   )
 }
