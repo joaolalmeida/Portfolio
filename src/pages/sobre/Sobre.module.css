@@ -1,7 +1,7 @@
 .body {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  height: 62vh;
+  height: 50vh;
   justify-content: center;
   align-items: center;
   column-gap: 2rem;
