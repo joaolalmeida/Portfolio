@@ -29,6 +29,8 @@ export function Projetos() {
         imageSrc={landingPage}
         imageLinha={linhaHorizontal}
         textos={landingPageTexto}
+        href={"https://responsive-landing-page-joaolalmeida.netlify.app/"}
+        github={"https://github.com/joaolalmeida/responsive-landing-page"}
       />
 
       <Project
@@ -36,6 +38,8 @@ export function Projetos() {
         link={"https://rocketpay.netlify.app/"}
         imageSrc={rocketPlay}
         textos={rocketPlayTexto}
+        href={"https://rocketpay.netlify.app/"}
+        github={"https://github.com/joaolalmeida/Rocketpay"}
       />
 
       <div className={styles.footerProjetos}>

@@ -64,8 +64,8 @@ export function Project(props) {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          <Pagina />
-          <Github />
+          <Pagina href={props.href} />
+          <Github href={props.github} />
         </motion.div>
       </motion.div>
       <motion.div

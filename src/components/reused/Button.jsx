@@ -18,10 +18,10 @@ export function Curriculo() {
 }
 
 
-export function Pagina() {
+export function Pagina(props) {
   return (
     <div className={styles.button}>
-      <a href="https://github.com/joaolalmeida" target="_blank">
+      <a href={props.href} target="_blank">
         <button>Página</button>
       </a>
     </div>
@@ -29,10 +29,10 @@ export function Pagina() {
 }
 
 
-export function Github() {
+export function Github(props) {
   return (
     <div className={styles.button}>
-      <a href="https://github.com/joaolalmeida" target="_blank">
+      <a href={props.href} target="_blank">
         <button>GitHub</button>
       </a>
     </div>
