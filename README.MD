@@ -2,6 +2,6 @@
 
 --Arrumar o problema que quando tem barra de rolagem o Header mexe um pouco de lugar (OK)
 
---caso o link do curriculo na aba sobre pare de funcionar talvez precise colocar o novo link link.href = "https://seusite.com/pdf/meuArquivo.pdf"; (EM ANDAMENTO)
+--caso o link do curriculo na aba sobre pare de funcionar talvez precise colocar o novo link link.href = "https://seusite.com/pdf/meuArquivo.pdf"; (OK)
 
---Colocar no project.jsx para quando clicar na imagem do projeto ir para o projeto (EM ANDAMENTO)
+--Colocar no project.jsx para quando clicar na imagem do projeto ir para o projeto (OK)

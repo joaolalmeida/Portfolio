@@ -34,7 +34,9 @@ export function Inicio() {
           <Profile />
         </div>
       </div>
-      <Footer />
+      <div className={styles.inicioFooter}> 
+        <Footer />
+      </div>
     </div>
   )
 }

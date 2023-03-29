@@ -13,7 +13,6 @@
 
 @media (max-width: 768px) {
     .body {
-      height: 58vh;
       display: flex;
       justify-content: end;
       flex-direction: column;
@@ -25,5 +24,8 @@
 
     .linha, .profile {
       display: none;
+    }
+    .inicioFooter {
+      margin-top: 6rem;
     }
   }
