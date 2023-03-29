@@ -8,13 +8,19 @@ import { IconsLinkedin } from "../reused/Icons"
 
 import { Navbar } from "./Navbar"
 
+import { motion } from 'framer-motion'
 
 export function HeaderComplete() {
   return (
     <header className={styles.header}>
-      <div className={styles.teste}>
-        <Title size="1.2rem" weight="500"/>
-      </div>
+      <motion.div
+        className={styles.teste}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+      >
+        <Title size="1.2rem" weight="500" />
+      </motion.div>
       <Navbar />
       <div className={styles.icons}>
         <IconsLinkedin />
@@ -45,9 +51,14 @@ export function HeaderInicio() {
 export function HeaderSobre(props) {
   return (
     <header className={styles.header}>
-      <div className={styles.teste}>
-        <Title size="1.2rem" weight="500" color={props.color}/>
-      </div>
+      <motion.div
+        className={styles.teste}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+      >
+        <Title size="1.2rem" weight="500" color={props.color} />
+      </motion.div>
       <Navbar />
       <div className={styles.icons}>
         <IconSun />
