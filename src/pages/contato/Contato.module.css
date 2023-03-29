@@ -29,3 +29,32 @@
 .info p {
   font-weight: 300;
 }
+
+@media (max-width: 768px) {
+  .body {
+    margin-top: 8rem;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .linhaVertical {
+    display: none;
+  }
+
+  .titleAndSubtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .info p {
+    margin-top: 0rem;
+  }
+
+  .contatoFooter {
+    margin-top: -4rem;
+  }
+}

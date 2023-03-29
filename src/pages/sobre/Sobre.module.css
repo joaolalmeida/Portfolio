@@ -19,6 +19,10 @@
   margin-left: 3rem;
 }
 
+.h3Big {
+  display: none;
+}
+
 h3 {
   font-size: 2rem;
   font-weight: 300;
@@ -30,3 +34,32 @@ p {
   font-weight: 300;
 }
 
+@media (max-width: 768px) {
+  .body {
+    margin-top: 14rem;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  p {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .text {
+    max-width: 37rem;
+    margin-left: 0rem;
+  }
+
+  .curriculoCenter {
+    text-align: center;
+  }
+
+  .h3Big {
+    display: block;
+  }
+  
+  .h3Small {
+    display: none;
+  }
+}

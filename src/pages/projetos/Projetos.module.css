@@ -2,3 +2,10 @@
   margin-top: -8rem;
   margin-bottom: 4rem;
 }
+
+@media (max-width: 768px) {
+  .footerProjetos {
+    margin-top: -12rem;
+    margin-bottom: 2rem;
+  }
+}

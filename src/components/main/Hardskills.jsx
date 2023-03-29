@@ -96,11 +96,3 @@ export function Hardskills() {
     </motion.div>
   )
 }
-
-    // <motion.div initial="hidden" animate="visible" variants={containerteste}>
-    //   <h2>Hard Skills</h2>
-    //   <motion.div>
-    //     <FaReact/>
-    //     // <motion.img variants={item} src={reactjs}></motion.img>
-    //   </motion.div>
-    // </motion.div>

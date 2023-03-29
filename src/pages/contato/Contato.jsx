@@ -11,8 +11,10 @@ export function Contato() {
       <HeaderSobre color={"rgba(0, 136, 255, 0)"} />
       <div className={styles.body}>
         <div className={styles.titleAndSubtitle}>
-          <Title size="3rem" />
-          <img src={linha} alt="" />
+          <div className={styles.title}>
+            <Title size="3rem" />
+          </div>
+          <img src={linha} alt="" className={styles.linhaVertical}/>
           <Subtitle size="1.5rem" />
         </div>
         <div className={styles.icons}>
@@ -25,7 +27,9 @@ export function Contato() {
           <p>Almirante Tamandare / PR</p>
         </div>
       </div>
-      <Footer />
+      <div className={styles.contatoFooter}>
+        <Footer />
+      </div>
     </div>
   )
 }

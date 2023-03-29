@@ -14,19 +14,23 @@ export function Inicio() {
       <HeaderInicio />
       <div className={styles.body}>
         <div className={styles.title}>
-          <Title size="4rem" weight="500" />
+          <div className={styles.titleJoao}>
+            <Title size="4rem" weight="500" />
+          </div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            <Subtitle size="1.8rem" />
+              <div>
+                <Subtitle size="1.8rem" />
+              </div>
           </motion.div>
         </div>
         <div className={styles.linha}>
           <img src={linha} alt="" />
         </div>
-        <div>
+        <div className={styles.profile}>
           <Profile />
         </div>
       </div>

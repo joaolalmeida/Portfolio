@@ -6,14 +6,24 @@
   gap: 3.375rem;
 }
 
-.body h2 {
-  color: var(--green-100);
-  font-weight: 300;
-  text-align: end;
-}
-
-
-
 .linha {
   margin-bottom: 2rem;
 }
+
+
+@media (max-width: 768px) {
+    .body {
+      height: 58vh;
+      display: flex;
+      justify-content: end;
+      flex-direction: column;
+    }
+
+    .titleJoao {
+      padding: 0 0 3rem 0;
+    }
+
+    .linha, .profile {
+      display: none;
+    }
+  }

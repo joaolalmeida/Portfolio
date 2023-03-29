@@ -20,10 +20,10 @@ export function Skills() {
         >
         </motion.div>
           <Hardskills />
-
-
         <SoftSkills />
-        <Footer />
+        <div className={styles.skillsFooter}>
+          <Footer />
+        </div>
       </div>
     </div>
   )

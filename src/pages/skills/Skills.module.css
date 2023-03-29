@@ -1,2 +1,6 @@
-
+@media (max-width: 768px) {
+  .skillsFooter {
+    margin-top: -10rem;
+  }
+}
 

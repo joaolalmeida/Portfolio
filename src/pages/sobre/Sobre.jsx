@@ -15,6 +15,7 @@ export function Sobre() {
     <div>
       <HeaderSobre />
       <div className={styles.body}>
+      <h3 className={styles.h3Big}>Olá =)</h3>
         <div className={styles.profile}>
           <Profile />
           <div className={styles.icons}>
@@ -28,7 +29,7 @@ export function Sobre() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            <h3>Olá :)</h3>
+              <h3 className={styles.h3Small}>Olá :)</h3>
             <p>
               Bem-vindo(a) ao meu portfólio. Esse espaço tem o propósito de
               reunir os últimos projetos que desenvolvi, bem como algumas
@@ -43,7 +44,9 @@ export function Sobre() {
               Disponibilizo no botão abaixo o meu currículo completo, onde pode
               encontrar minhas experiências e formações profissionais.
             </p>
-            <Curriculo />
+            <div className={styles.curriculoCenter}>
+              <Curriculo />
+            </div>
           </motion.div>
         </div>
       </div>

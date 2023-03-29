@@ -16,3 +16,9 @@
 .footer a:hover {
   color: var(--green-100);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    height: 25vh;
+  }
+}
