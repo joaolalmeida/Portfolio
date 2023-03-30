@@ -21,11 +21,8 @@ export function Navbar() {
     toggleMenu()
   }
 
-
   return (
-    <nav
-      className={styles.navbar}
-    >
+    <nav className={styles.navbar}>
       <button className={styles.menuButton} onClick={handleCombinedClick}>
         {isMenuOpen ? (
           <i className="fa fa-times"></i>
@@ -36,22 +33,22 @@ export function Navbar() {
       <ul
         className={`${styles.navbarItems} ${
           showMenu ? styles["navbarItems--mobile"] : ""
-        } ${showMenu ? styles["navbarItems--show"] : ""}`} 
+        } ${showMenu ? styles["navbarItems--show"] : ""}`}
       >
         <li>
-          <Link to="/">INICIO</Link>
+          <Link to="/"><span>INICIO</span></Link>
         </li>
         <li>
-          <Link to="/sobre">SOBRE</Link>
+          <Link to="/sobre"><span>SOBRE</span></Link>
         </li>
         <li>
-          <Link to="/skills">SKILLS</Link>
+          <Link to="/skills"><span>SKILLS</span></Link>
         </li>
         <li>
-          <Link to="/projetos">PROJETOS</Link>
+          <Link to="/projetos"><span>PROJETOS</span></Link>
         </li>
         <li>
-          <Link to="/contato">CONTATO</Link>
+          <Link to="/contato"><span>CONTATO</span></Link>
         </li>
       </ul>
     </nav>
