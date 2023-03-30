@@ -1,5 +1,5 @@
 .footer {
-  height: 15vh;
+  height: 27vh;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -16,6 +16,14 @@
 .footer a:hover {
   color: var(--green-100);
 }
+
+
+@media (max-height: 900px) {
+  .footer {
+    height: 16vh;
+  }
+}
+
 
 @media (max-width: 768px) {
   .footer {

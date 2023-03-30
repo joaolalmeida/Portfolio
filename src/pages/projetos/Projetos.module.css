@@ -1,7 +1,16 @@
 .footerProjetos {
-  margin-top: -8rem;
-  margin-bottom: 4rem;
+  margin-top: -18rem;
+  margin-bottom: 2rem;
 }
+
+
+
+@media (max-height: 900px) {
+  .footerProjetos {
+    margin-top: -10rem;
+  }
+}
+
 
 @media (max-width: 768px) {
   .footerProjetos {
