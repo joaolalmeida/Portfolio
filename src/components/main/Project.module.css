@@ -15,6 +15,10 @@
   height: auto;
 }
 
+.technologies span {
+
+}
+
 .technologies {
   display: flex;
   justify-content: center;
@@ -60,6 +64,11 @@
   .linhaHorizontal img {
     margin-bottom: 0rem;
     width: 50%;
+  }
+
+  .technologies {
+      flex-wrap: wrap;
+      row-gap: 0rem;
   }
 
   .technologies span {
