@@ -1,7 +1,31 @@
---Retirar o title do Header.jsx de invisivel e solucionar o problema com a Navbar centralizada quando não ouver algum elemento na esquerda (<div className={styles.title}>João Almeida</div>) (OK)
+<h1>Portfólio João Almeida</h1>
 
---Arrumar o problema que quando tem barra de rolagem o Header mexe um pouco de lugar (OK)
+<h2>Link de acesso</h2>
 
---caso o link do curriculo na aba sobre pare de funcionar talvez precise colocar o novo link link.href = "https://seusite.com/pdf/meuArquivo.pdf"; (OK)
+<a href="https://portifolio-joaoalmeida.netlify.app/">👉 Portfólio</a>
 
---Colocar no project.jsx para quando clicar na imagem do projeto ir para o projeto (OK)
+<h2>Objetivo</h2>
+
+<p>O objetivo desse portfólio é reunir algumas informações sobre mim, como skills e contatos, além dos últimos projetos desenvolvidos.</p>
+
+<h2>Tecnologias e ferramentas utilizadas</h2>
+
+<ul>
+<li>Figma;</li>
+<li>HTML;</li>
+<li>CSS;</li>
+<li>JavaScript;</li>
+<li>ReactJS;</li>
+<li>CSS Modules;</li>
+<li>React Router DOM;</li>
+<li>Framer Motion;</li>
+</ul>
+
+<h2>Descobertas do caminho</h2>
+
+<h3>Framer Motion</h3>
+<p>Meu objetivo inicial era que o portfólio tivesse algumas animações. Estudando sobre o assunto descobri a biblioteca Framer Motion, que facilita bastante a forma de fazer animações no React.</p>
+
+<h3>Versão</h3>
+
+<p>O projeto está na sua versão 1.0 e será continuamente atualizado e aprimorado.</p>
