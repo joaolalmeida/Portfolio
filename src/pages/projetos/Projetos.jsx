@@ -37,13 +37,13 @@ export function Projetos() {
       <HeaderComplete />
 
       <Project
-        texto="Landing Page Responsive"
-        link={"https://responsive-landing-page-joaolalmeida.netlify.app/"}
-        imageSrc={landingPage}
-        imageLinha={linhaHorizontal}
-        textos={landingPageTexto}
-        href={"https://responsive-landing-page-joaolalmeida.netlify.app/"}
-        github={"https://github.com/joaolalmeida/responsive-landing-page"}
+        texto="Landing Page Responsive" //Texto de titulo do projeto
+        link={"https://responsive-landing-page-joaolalmeida.netlify.app/"} // link de redirecionamento da imagem do projeto
+        imageSrc={landingPage} // Imagem do projeto
+        imageLinha={linhaHorizontal} // Imagem da linha(não usar no ultimo projeto)
+        textos={landingPageTexto} // textos das tecnologias utilizadas (criar uma const com os textos)
+        href={"https://responsive-landing-page-joaolalmeida.netlify.app/"} // link do botão pagina
+        github={"https://github.com/joaolalmeida/responsive-landing-page"} // link do botao github
       />
 
       <Project
