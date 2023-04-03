@@ -50,6 +50,7 @@ export function Projetos() {
         texto="Rocket Play"
         link={"https://rocketpay.netlify.app/"}
         imageSrc={rocketPlay}
+        imageLinha={linhaHorizontal}
         textos={rocketPlayTexto}
         href={"https://rocketpay.netlify.app/"}
         github={"https://github.com/joaolalmeida/Rocketpay"}
