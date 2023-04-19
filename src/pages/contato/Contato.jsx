@@ -24,7 +24,7 @@ export function Contato() {
         <div className={styles.info}>
           <p>joaolalmeida20@gmail.com</p>
           <p>41 9 9677 2039</p>
-          <p>Almirante Tamandare / PR</p>
+          <p>Curitiba / PR</p>
         </div>
       </div>
       <div className={styles.contatoFooter}>

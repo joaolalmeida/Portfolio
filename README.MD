@@ -2,7 +2,7 @@
 
 <h2>Link de acesso</h2>
 
-<a href="https://portifolio-joaoalmeida.netlify.app/">👉 Portfólio</a>
+<a href="https://portfolio-joaoalmeida.netlify.app/">👉 Portfólio</a>
 
 <h2>Objetivo</h2>
 
