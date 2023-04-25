@@ -2,18 +2,20 @@ import { HeaderComplete } from './../../components/HeaderPast/Header'
 import { Footer } from './../../components/Footer/Footer'
 import { Project } from '../../components/main/Project'
 
-import landingPage from './../../assets/landingPage.png'
+import feedSocialNetwork from "./../../assets/feedSocialNetwork.png"
 import rocketPlay from './../../assets/rocketPlay.png'
 import portfolio from "./../../assets/portfolio.png"
+
 
 import linhaHorizontal from './../../assets/linha-horizontal.png'
 
 import styles from './Projetos.module.css'
 
-const landingPageTexto = [
-  "HTML",
-  "CSS",
+const feedSocialNetworkTexto = [
   "JavaScript",
+  "Typescript",
+  "Vite",
+  "CSS Modules",
 ]
 const rocketPlayTexto = [
   "HTML",
@@ -37,13 +39,13 @@ export function Projetos() {
       <HeaderComplete />
 
       <Project
-        texto="Landing Page Responsive" //Texto de titulo do projeto
-        link={"https://responsive-landing-page-joaolalmeida.netlify.app/"} // link de redirecionamento da imagem do projeto
-        imageSrc={landingPage} // Imagem do projeto
+        texto="Feed Social NetWork" //Texto de titulo do projeto
+        link={"https://feed-social-network.netlify.app/"} // link de redirecionamento da imagem do projeto
+        imageSrc={feedSocialNetwork} // Imagem do projeto
         imageLinha={linhaHorizontal} // Imagem da linha(não usar no ultimo projeto)
-        textos={landingPageTexto} // textos das tecnologias utilizadas (criar uma const com os textos)
-        href={"https://responsive-landing-page-joaolalmeida.netlify.app/"} // link do botão pagina
-        github={"https://github.com/joaolalmeida/responsive-landing-page"} // link do botao github
+        textos={feedSocialNetworkTexto} // textos das tecnologias utilizadas (criar uma const com os textos)
+        href={"https://feed-social-network.netlify.app/"} // link do botão pagina
+        github={"https://github.com/joaolalmeida/feedSocialNetwork"} // link do botao github
       />
 
       <Project
