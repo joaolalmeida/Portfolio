@@ -5,6 +5,7 @@ import { Project } from '../../components/main/Project'
 import feedSocialNetwork from "./../../assets/feedSocialNetwork.png"
 import rocketPlay from './../../assets/rocketPlay.png'
 import portfolio from "./../../assets/portfolio.png"
+import todoList from "./../../assets/todoList.png"
 
 
 import linhaHorizontal from './../../assets/linha-horizontal.png'
@@ -12,11 +13,18 @@ import linhaHorizontal from './../../assets/linha-horizontal.png'
 import styles from './Projetos.module.css'
 
 const feedSocialNetworkTexto = [
-  "JavaScript",
   "Typescript",
   "Vite",
   "CSS Modules",
+  "HTML",
 ]
+const todoListTexto = [
+  "Typescript",
+  "Vite",
+  "CSS Modules",
+  "HTML",
+]
+
 const rocketPlayTexto = [
   "HTML",
   "CSS",
@@ -56,6 +64,16 @@ export function Projetos() {
         textos={rocketPlayTexto}
         href={"https://rocketpay.netlify.app/"}
         github={"https://github.com/joaolalmeida/Rocketpay"}
+      />
+
+      <Project
+        texto="ToDo List"
+        link={"https://todolist-joaoalmeida.netlify.app/"}
+        imageSrc={todoList}
+        imageLinha={linhaHorizontal}
+        textos={todoListTexto}
+        href={"https://todolist-joaoalmeida.netlify.app/"}
+        github={"https://github.com/joaolalmeida/toDoList"}
       />
 
       <Project
