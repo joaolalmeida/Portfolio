@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 
 import { Inicio } from './../pages/inicio/Inicio'
 import { Sobre } from './../pages/sobre/Sobre'
@@ -15,6 +15,7 @@ export function Rotas() {
           <Route exact path="/skills" Component={Skills} />
           <Route exact path="/projetos" Component={Projetos} />
           <Route exact path="/contato" Component={Contato} />
+          <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     )
 }
